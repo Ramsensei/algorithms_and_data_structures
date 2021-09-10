@@ -18,6 +18,7 @@ public class Stack {
         return this.stackList.getHead();
     }
 
+    /*
     public static void main(String[] args) {
         // Create an empty linked list
         Stack stack = new Stack();
@@ -36,4 +37,5 @@ public class Stack {
 
         System.out.println(element);
     }
+    */
 }

@@ -6,6 +6,7 @@ public class Node {
     public Node(Object data) {
         this.next = null;
         this.data = data;
+        this.prev = null;
     }
 
     public Object getData() {
@@ -23,4 +24,12 @@ public class Node {
     public void setNext(Node node) {
         this.next = node;
     }
+
+	public Node getPrev() {
+		return prev;
+	}
+
+	public void setPrev(Node prev) {
+		this.prev = prev;
+	}
 }
